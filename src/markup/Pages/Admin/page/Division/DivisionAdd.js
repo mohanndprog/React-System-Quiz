@@ -32,10 +32,16 @@ class DivisionAdd extends Component {
                                     <div className="card-body">
                                         <form role="form">
                                             <div className="row">
-                                                <div className="col-md-12">
+                                                <div className="col-md-6">
                                                     <div className="form-group  ">
-                                                        <label  >اسم الشعبة :</label>
-                                                        <input type="text" className="form-control" placeholder="اسم الامتحان" />
+                                                        <label  >اسم الشعبة عربي:</label>
+                                                        <input type="text" className="form-control" placeholder="اسم شعبة" />
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-6">
+                                                    <div className="form-group  ">
+                                                        <label  >اسم الشعبة انجليزي :</label>
+                                                        <input type="text" className="form-control" placeholder="اسم شعبة" />
                                                     </div>
                                                 </div>
                                            

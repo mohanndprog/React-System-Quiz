@@ -32,13 +32,19 @@ class GroupAdd extends Component {
                                     <div className="card-body">
                                         <form role="form">
                                             <div className="row">
-                                                <div className="col-md-12">
+                                                <div className="col-md-6">
                                                     <div className="form-group  ">
-                                                        <label  >اسم المجموعة :</label>
+                                                        <label  >اسم المجموعة عربي:</label>
                                                         <input type="text" className="form-control" placeholder="اسم المجموعة" />
                                                     </div>
                                                 </div>
-                                                <div className="col-md-12">
+                                                <div className="col-md-6">
+                                                    <div className="form-group  ">
+                                                        <label  >اسم المجموعة انجليزي:</label>
+                                                        <input type="text" className="form-control" placeholder="اسم المجموعة" />
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-6">
                                                     <div className="form-group  ">
                                                         <div class="input-group-prepend">
                                                             <label class="input-group-text" for="inputGroupSelect01">اسم التصنيف التابعة له</label>

@@ -47,6 +47,7 @@ class QuestionsShow extends Component {
 
                                                         {/* <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2"></th> */}
                                                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">السؤال</th>
+                                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">تصنيف السؤال</th>
 
                                                         <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">المجموعة</th>
                                                         <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">نوع السؤال</th>
@@ -61,13 +62,17 @@ class QuestionsShow extends Component {
 
 
 
-                                                        <td class="align-middle text-center text-sm">
+                                                        <td class="align-middle text-sm">
                                                             <span class="text-secondary text-xs font-weight-bold">كم كان عمر النبي محمد صلى الله عليه وسلم عندما
                                                                 توفيت أمه؟</span>
                                                         </td>
 
-                                                        <td class="align-middle text-center text-sm">
+                                                        <td class="align-middle  text-sm">
                                                             <span class="text-secondary text-xs font-weight-bold"> متقدم   </span>
+                                                 
+                                                        </td>
+                                                        <td class="align-middle text-center text-sm">
+                                                            <span class="text-secondary text-xs font-weight-bold"> أحكام شرعية   </span>
                                                  
                                                         </td>
                                                         <td class="align-middle text-center text-sm">
@@ -81,7 +86,7 @@ class QuestionsShow extends Component {
 
                                                         <td class="align-middle text-center">
 
-                                                            <Link to="/dashboard/questions/questionsdetails" class="btn bg-gradient-info w-100 mb-0 toast-btn " type="button" data-target="warningToast">التفاصيل</Link>
+                                                          
                                                             <Link to="/dashboard/questions/questionsedit" class="btn bg-gradient-warning w-100 mb-0 toast-btn mr-2" type="button" data-target="warningToast">تعديل</Link>
                                                             <button class="btn bg-gradient-danger w-100 mb-0 toast-btn mr-2" type="button" data-target="dangerToast">حذف</button>
 

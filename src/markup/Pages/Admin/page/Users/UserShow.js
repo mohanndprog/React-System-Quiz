@@ -27,7 +27,7 @@ class QuestionsShow extends Component {
                                 <div class="card my-4">
                                     <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                                         <div class="bg-gradient-success shadow-success border-radius-lg pt-4 pb-3">
-                                            <h6 class="text-white text-capitalize ps-3">الأسئلة</h6>
+                                            <h6 class="text-white text-capitalize ps-3">المستخدمين</h6>
                                         </div>
                                     </div>
 
@@ -35,7 +35,7 @@ class QuestionsShow extends Component {
                                         <label class="form-label">البحث...</label>
                                         <input type="text" class="form-control" onfocus="focused(this)" onfocusout="defocused(this)" />
                                         <button class="btn bg-gradient-success w-100 mb-0 toast-btn mr-2" type="button" data-target="dangerToast">بحث</button>
-                                        <Link to="/dashboard/users/userAdd" class="btn bg-gradient-info w-100 mb-0 toast-btn mr-2" >اضافة سؤال جديد</Link>
+                                        <Link to="/dashboard/users/userAdd" class="btn bg-gradient-info w-100 mb-0 toast-btn mr-2" >اضافة مستخدم جديد</Link>
                                     </div>
 
                                     <div class="card-body px-0 pb-2">

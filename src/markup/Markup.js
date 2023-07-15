@@ -75,6 +75,33 @@ import DivisionAdd from './Pages/Admin/page/Division/DivisionAdd';
 import DivisionEdit from './Pages/Admin/page/Division/DivisionEdit';
 
 
+import ClassificationQuestions from './Pages/Admin/page/ClassificationQuestions/ClassificationQuestions';
+import ClassificationQuestionsAdd from './Pages/Admin/page/ClassificationQuestions/ClassificationQuestionsAdd';
+import ClassificationQuestionsEdit from './Pages/Admin/page/ClassificationQuestions/ClassificationQuestionsEdit';
+
+
+import SocialSituations from './Pages/Admin/page/SocialSituations/SocialSituations';
+import SocialSituationsAdd from './Pages/Admin/page/SocialSituations/SocialSituationsAdd';
+import SocialSituationsEdit from './Pages/Admin/page/SocialSituations/SocialSituationsEdit';
+
+
+
+import Moderators from './Pages/Admin/page/Moderators/Moderators';
+import ModeratorsAdd from './Pages/Admin/page/Moderators/ModeratorsAdd';
+import ModeratorsEdit from './Pages/Admin/page/Moderators/ModeratorsEdit';
+
+
+import MemorizingQuran from './Pages/Admin/page/MemorizingQuran/MemorizingQuran';
+import MemorizingQuranAdd from './Pages/Admin/page/MemorizingQuran/MemorizingQuranAdd';
+import MemorizingQuranEdit from './Pages/Admin/page/MemorizingQuran/MemorizingQuranEdit';
+
+
+import Qualifications from './Pages/Admin/page/Qualifications/Qualifications';
+import QualificationsAdd from './Pages/Admin/page/Qualifications/QualificationsAdd';
+import QualificationsEdit from './Pages/Admin/page/Qualifications/QualificationsEdit';
+ 
+
+
 
 
 
@@ -147,6 +174,34 @@ class Markup extends Component{
                         <Route path='/dashboard/division' exact component={Division} />
                         <Route path='/dashboard/division/divisionadd' exact component={DivisionAdd} />
                         <Route path='/dashboard/division/divisionedit' exact component={DivisionEdit} />
+
+
+                        <Route path='/dashboard/classificationquestions' exact component={ClassificationQuestions} />
+                        <Route path='/dashboard/classificationQuestions/classificationquestionsadd' exact component={ClassificationQuestionsAdd} />
+                        <Route path='/dashboard/classificationQuestions/classificationquestionsedit' exact component={ClassificationQuestionsEdit} />
+
+
+                        <Route path='/dashboard/moderators' exact component={Moderators} />
+                        <Route path='/dashboard/moderators/moderatorsadd' exact component={ModeratorsAdd} />
+                        <Route path='/dashboard/moderators/moderatorsedit' exact component={ModeratorsEdit} />
+
+
+                        <Route path='/dashboard/socialsituations' exact component={SocialSituations} />
+                        <Route path='/dashboard/socialsituations/socialsituationsadd' exact component={SocialSituationsAdd} />
+                        <Route path='/dashboard/socialsituations/socialsituationsedit' exact component={SocialSituationsEdit} />
+
+
+
+                        <Route path='/dashboard/memorizingquran' exact component={MemorizingQuran} />
+                        <Route path='/dashboard/memorizingquran/memorizingquranadd' exact component={MemorizingQuranAdd} />
+                        <Route path='/dashboard/memorizingquran/memorizingquranedit' exact component={MemorizingQuranEdit} />
+
+
+                        <Route path='/dashboard/qualifications' exact component={Qualifications} />
+                        <Route path='/dashboard/qualifications/qualificationsadd' exact component={QualificationsAdd} />
+                        <Route path='/dashboard/qualifications/qualificationsedit' exact component={QualificationsEdit} />
+
+                        
 
 
                        

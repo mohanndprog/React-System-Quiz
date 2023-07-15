@@ -32,9 +32,15 @@ class CategoryAdd extends Component {
                                     <div className="card-body">
                                         <form role="form">
                                             <div className="row">
-                                                <div className="col-md-12">
+                                                <div className="col-md-6">
                                                     <div className="form-group  ">
-                                                        <label  >اسم التصنيف :</label>
+                                                        <label  >اسم التصنيف عربي:</label>
+                                                        <input type="text" className="form-control" placeholder="اسم التصنيف" />
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-6">
+                                                    <div className="form-group  ">
+                                                        <label  >اسم التصنيف انجليزي:</label>
                                                         <input type="text" className="form-control" placeholder="اسم التصنيف" />
                                                     </div>
                                                 </div>

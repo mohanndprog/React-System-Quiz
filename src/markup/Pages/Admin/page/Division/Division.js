@@ -47,7 +47,8 @@ class Division extends Component {
                                                     <tr>
 
                                                         {/* <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2"></th> */}
-                                                        <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">اسم الشعبة</th>
+                                                        <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">اسم الشعبة عربي</th>
+                                                        <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">اسم الشعبة انجليزي</th>
                                                       
                                                         <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">الاجراءات</th>
 
@@ -58,6 +59,9 @@ class Division extends Component {
 
                                                         <td class="align-middle text-center">
                                                             <span class="text-secondary text-xs font-weight-bold">أ</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">A</span>
                                                         </td>
                                                       
                                                   

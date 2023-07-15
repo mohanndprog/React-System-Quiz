@@ -41,13 +41,26 @@ class QuestionsAdd extends Component {
                                                 <div className="col-md-6">
                                                     <div className="form-group  ">
                                                         <div class="input-group-prepend">
-                                                            <label class="input-group-text" for="inputGroupSelect01">اسم المجموعة التابع لها</label>
+                                                            <label class="input-group-text" for="inputGroupSelect01">اسم التصنيف التابع له</label>
                                                         </div>
                                                         <select class="custom-select" id="inputGroupSelect01">
                                                             <option selected>اختر...</option>
                                                             <option value="1">متقدم</option>
                                                             <option value="2">متوسط</option>
                                                             <option value="3">مبتدء</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-6">
+                                                    <div className="form-group  ">
+                                                        <div class="input-group-prepend">
+                                                            <label class="input-group-text" for="inputGroupSelect01">اسم المجموعة التابع لها</label>
+                                                        </div>
+                                                        <select class="custom-select" id="inputGroupSelect01">
+                                                            <option selected>اختر...</option>
+                                                            <option value="1">أحكام شرعية</option>
+                                                            <option value="2">أحكام</option>
+                                                            <option value="3">شرعية</option>
                                                         </select>
                                                     </div>
                                                 </div>

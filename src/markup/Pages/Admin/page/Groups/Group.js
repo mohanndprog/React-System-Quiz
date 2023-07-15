@@ -57,10 +57,10 @@ class Group extends Component {
                                                     <tr>
 
                                                         <td class="align-middle text-center">
-                                                            <span class="text-secondary text-xs font-weight-bold">متقدم</span>
+                                                            <span class="text-secondary text-xs font-weight-bold">أحكام شرعية</span>
                                                         </td>
                                                         <td class="align-middle text-center">
-                                                            <span class="text-secondary text-xs font-weight-bold">أحكام شرعية</span>
+                                                            <span class="text-secondary text-xs font-weight-bold">تربية اسلامية</span>
                                                         </td>
                                                       
                                                   

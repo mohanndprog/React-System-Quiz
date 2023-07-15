@@ -42,7 +42,13 @@ class ExamAdd extends Component {
  
                                                 <div className="col-md-6">
                                                     <div className="form-group  ">
-                                                        <label  >اسم الامتحان :</label>
+                                                        <label  >اسم الامتحان عربي:</label>
+                                                        <input type="text" className="form-control" placeholder="اسم الامتحان" />
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-6">
+                                                    <div className="form-group  ">
+                                                        <label  >اسم الامتحان انجليزي:</label>
                                                         <input type="text" className="form-control" placeholder="اسم الامتحان" />
                                                     </div>
                                                 </div>
@@ -75,6 +81,9 @@ class ExamAdd extends Component {
                                                         <label  >وقت نهاية الامتحان :</label>
                                                         <input type="time" className="form-control" placeholder="اسم الامتحان" />
                                                     </div>
+                                                </div>
+                                                <div className="col-md-6">
+                                                     
                                                 </div>
                                                 <div className="col-md-6">
                                                     <div className="form-group  ">

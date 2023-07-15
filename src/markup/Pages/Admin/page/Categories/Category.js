@@ -70,7 +70,8 @@ function CategoryAll() {
                                                 <tr>
 
                                                     {/* <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2"></th> */}
-                                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">اسم التصنيف</th>
+                                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">اسم التصنيف عربي</th>
+                                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">اسم التصنيف انجليزي</th>
 
                                                     <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">الاجراءات</th>
 
@@ -79,6 +80,9 @@ function CategoryAll() {
                                             <tbody>
                                                 <tr>
 
+                                                    <td class="align-middle text-center">
+                                                        <span class="text-secondary text-xs font-weight-bold">أحكام شرعية</span>
+                                                    </td>
                                                     <td class="align-middle text-center">
                                                         <span class="text-secondary text-xs font-weight-bold">أحكام شرعية</span>
                                                     </td>

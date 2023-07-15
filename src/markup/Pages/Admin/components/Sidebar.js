@@ -110,7 +110,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className={location.pathname === '/dashboard/questions' ? 'nav-link text-white active bg-gradient-success' : 'nav-link text-white'} to="/dashboard/questions">
+            <Link className={location.pathname === '/dashboard/classificationquestions' ? 'nav-link text-white active bg-gradient-success' : 'nav-link text-white'} to="/dashboard/classificationquestions">
               <div className="text-white text-center me-2 d-flex align-items-center justify-content-center">
 
                 <span class="svg-icon svg-icon-muted svg-icon-2hx"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -138,7 +138,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className={location.pathname === '/dashboard/useers' ? 'nav-link text-white active bg-gradient-success' : 'nav-link text-white'} to="/dashboard/useres">
+            <Link className={location.pathname === '/dashboard/moderators' ? 'nav-link text-white active bg-gradient-success' : 'nav-link text-white'} to="/dashboard/moderators">
               <div className="text-white text-center me-2 d-flex align-items-center justify-content-center">
 
                 <span class="svg-icon svg-icon-muted svg-icon-2hx"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -153,7 +153,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className={location.pathname === '/dashboard/useers' ? 'nav-link text-white active bg-gradient-success' : 'nav-link text-white'} to="/dashboard/useers">
+            <Link className={location.pathname === '/dashboard/socialsituations' ? 'nav-link text-white active bg-gradient-success' : 'nav-link text-white'} to="/dashboard/socialsituations">
               <div className="text-white text-center me-2 d-flex align-items-center justify-content-center">
 
                 <span class="svg-icon svg-icon-muted svg-icon-2hx"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -169,7 +169,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className={location.pathname === '/dashboard/useers' ? 'nav-link text-white active bg-gradient-success' : 'nav-link text-white'} to="/dashboard/uesers">
+            <Link className={location.pathname === '/dashboard/memorizingquran' ? 'nav-link text-white active bg-gradient-success' : 'nav-link text-white'} to="/dashboard/memorizingquran">
               <div className="text-white text-center me-2 d-flex align-items-center justify-content-center">
 
                 <span class="svg-icon svg-icon-muted svg-icon-2hx"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -185,7 +185,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className={location.pathname === '/dashboard/useers' ? 'nav-link text-white active bg-gradient-success' : 'nav-link text-white'} to="/dashboard/uesers">
+            <Link className={location.pathname === '/dashboard/qualifications' ? 'nav-link text-white active bg-gradient-success' : 'nav-link text-white'} to="/dashboard/qualifications">
               <div className="text-white text-center me-2 d-flex align-items-center justify-content-center">
 
                 <span class="svg-icon svg-icon-muted svg-icon-2hx"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -201,7 +201,7 @@ const Sidebar = () => {
           </li>
 
           <li className="nav-item">
-            <Link className={location.pathname === '/dashboard/uesers' ? 'nav-link text-white active bg-gradient-success' : 'nav-link text-white'} to="/dashboard/useers">
+            <Link className={location.pathname === '/' ? 'nav-link text-white active bg-gradient-success' : 'nav-link text-white'} to="/">
               <div className="text-white text-center me-2 d-flex align-items-center justify-content-center">
 
                 <span class="svg-icon svg-icon-muted svg-icon-2hx"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
